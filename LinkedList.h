@@ -19,7 +19,7 @@ public:
     // An actual data item that this node contains.
     T data;
 
-    std::cout<<"yo";
+  
     //Constructors
     Node() : next(nullptr), prev(nullptr) {}
     Node(const T& dataArg) : next(nullptr), prev(nullptr), data(dataArg) {}
